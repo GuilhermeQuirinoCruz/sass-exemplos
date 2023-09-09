@@ -1,0 +1,12 @@
+$fontes: Helvetica, sans-serif;
+$cor-primaria: #ff0000;
+$cor-secundaria: #00ff00;
+
+body {
+    font: 100% $fontes;
+    color: $cor-primaria
+}
+
+h1 {
+    color: $cor-secundaria;
+}

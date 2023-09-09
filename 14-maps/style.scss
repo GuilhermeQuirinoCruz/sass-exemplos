@@ -1,0 +1,15 @@
+@use "sass:map";
+
+$tamanhos-fonte: ("pequena": 100, "média": 250, "grande": 500);
+@debug $tamanhos-fonte;
+
+@debug map.get($tamanhos-fonte, "média");
+@debug map.get($tamanhos-fonte, "muito grande");
+
+@debug map.set($tamanhos-fonte, "muito grande", 1000);
+
+$outros-tamanhos: ("minúscula": 10, "pequena mas nem tanto": 150, "média": 300);
+@debug $outros-tamanhos;
+
+@debug map.merge($tamanhos-fonte, $outros-tamanhos);
+@debug map.merge($outros-tamanhos, $tamanhos-fonte);

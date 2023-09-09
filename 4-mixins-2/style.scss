@@ -1,0 +1,14 @@
+@mixin definir-emoji($nome, $glyph) {
+    span.emoji-#{$nome} {
+        font-family: IconFont;
+        font-variant: normal;
+        font-weight: normal;
+        content: $glyph;
+    }
+}
+
+@include definir-emoji("haha", "😂");
+
+@include definir-emoji("sexta-feira", "😈");
+
+@include definir-emoji("nerd", "🤓");

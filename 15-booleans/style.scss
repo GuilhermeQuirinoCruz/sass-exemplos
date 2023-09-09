@@ -1,0 +1,24 @@
+@debug "1 == 1: " + (1 == 1);
+@debug "10px == 10px: " + (10px == 10px);
+@debug "10px < 3px: " + (10px < 3px);
+
+@debug "----";
+
+@debug "abc == ABC: " + ("abc" == "ABC");
+@debug "cde == cde: " + ("cde" == "cde");
+
+@debug "----";
+
+@debug "true and true: " + (true and true);
+@debug "true and false: " + (true and false);
+
+@debug "----";
+
+@debug "true or false: " + (true or false);
+@debug "false or true: " + (false or true);
+@debug "false or false: " + (false or false);
+
+@debug "----";
+
+@debug "not true: " + (not true);
+@debug "not false: " + (not false);

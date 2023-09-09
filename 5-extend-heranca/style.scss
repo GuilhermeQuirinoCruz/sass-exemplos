@@ -1,0 +1,30 @@
+// Classes Placeholder 
+%mensagem-template {
+    border: 1px solid #000000;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+%classe-nao-utilizada {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mensagem-padrao {
+    @extend %mensagem-template;
+}
+
+.mensagem-sucesso {
+    @extend %mensagem-template;
+    border-color: green;
+}
+
+.mensagem-erro {
+    @extend %mensagem-template;
+    border-color: red;
+}
+
+.mensagem-aviso {
+    @extend %mensagem-template;
+    border-color: yellow;
+}

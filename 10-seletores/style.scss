@@ -1,0 +1,31 @@
+// Seletor pai
+.alerta {
+    &:hover {
+        font-weight: bold;
+    }
+
+    :not(&) {
+        opacity: 0.8;
+    }
+}
+
+// Sufixos
+.div {
+    &-1 {
+        max-width: 600px;
+        margin: 4rem auto;
+        width: 90%;
+        background: #FFFFFF;
+    }
+
+    &-2 {
+        max-width: 300px;
+        margin: 2rem auto;
+        width: 50%;
+        background: #000000;
+
+        &-3 {
+            background: #FF0000;
+        }
+    }
+}

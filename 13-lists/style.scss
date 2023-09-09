@@ -1,0 +1,16 @@
+@use "sass:list";
+
+$lista: 10, 20, 30;
+@debug $lista;
+
+$lista: 10 20 30 40 50;
+@debug $lista;
+
+@debug list.nth($lista, 2);
+@debug list.nth($lista, -1);
+
+$lista: append($lista, 60);
+@debug $lista;
+
+@debug list.index($lista, 30);
+@debug list.index($lista, 70);

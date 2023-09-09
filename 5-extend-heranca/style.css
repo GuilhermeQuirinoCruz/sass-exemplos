@@ -1,0 +1,19 @@
+.mensagem-aviso, .mensagem-erro, .mensagem-sucesso, .mensagem-padrao {
+  border: 1px solid #000000;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+.mensagem-sucesso {
+  border-color: green;
+}
+
+.mensagem-erro {
+  border-color: red;
+}
+
+.mensagem-aviso {
+  border-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

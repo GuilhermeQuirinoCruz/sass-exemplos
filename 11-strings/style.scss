@@ -1,0 +1,25 @@
+@use "sass:string";
+
+@debug string.unquote(".botao:hover");
+@debug string.quote(bold);
+
+.div-1 {
+    font-weight: string.quote(bold);
+}
+
+.div-2 {
+    font-weight: string.unquote("bold");
+}
+
+@debug "\"";
+@debug "a" + "b";
+
+$valor: 10;
+@debug "valor: #{$valor}";
+
+$valor: "10";
+@debug "valor: #{$valor}";
+
+@debug string.index("Helvetica Neue", "Helvetica");
+@debug string.index("Helvetica Neue", "Neue");
+@debug string.slice("Roboto Mono", -4);

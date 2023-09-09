@@ -1,0 +1,11 @@
+@use "sass:math";
+
+@debug 10px + 6px; // 16px
+
+// @debug 1em + 6px;
+
+@debug math.div(1000px, 500px); // 2
+
+.div {
+    height: "10" + 10;
+}

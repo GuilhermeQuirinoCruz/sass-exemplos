@@ -1,0 +1,23 @@
+@charset "UTF-8";
+span.emoji-haha {
+  font-family: IconFont;
+  font-variant: normal;
+  font-weight: normal;
+  content: "😂";
+}
+
+span.emoji-sexta-feira {
+  font-family: IconFont;
+  font-variant: normal;
+  font-weight: normal;
+  content: "😈";
+}
+
+span.emoji-nerd {
+  font-family: IconFont;
+  font-variant: normal;
+  font-weight: normal;
+  content: "🤓";
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+/// Calcula a exponenciação.
+///
+/// @param {number} $base
+///   O número para multiplicar por si mesmo.
+/// @param {integer (unitless)} $exponente
+///   O número de vezes que `$base` será multiplicado.
+/// @return {number} `$base` elevado a `$exponente`.
+@function exponenciacao($base, $exponente) {
+  $resultado: 1;
+
+  @for $_ from 1 through $exponente {
+    $resultado: $resultado * $base;
+  }
+
+  @return $resultado;
+}
+
+body {
+  width: exponenciacao(10, 2);
+}
+
+// Comentário silencioso, não será impresso no CSS
+
+// Modo compressed: --style=compressed
+/* Comentário que será impresso, a não ser no modo 'compressed' */
+
+/*! Comentário que será impresso, mesmo no modo 'compressed' */

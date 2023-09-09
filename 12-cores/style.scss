@@ -1,0 +1,8 @@
+$cor-primaria: #0000FF;
+@debug $cor-primaria;
+
+$venus: #998099;
+
+@debug scale-color($venus, $lightness: +15%);
+@debug scale-color($venus, $saturation: +10%);
+@debug mix($venus, midnightblue);

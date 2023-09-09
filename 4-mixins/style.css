@@ -1,0 +1,19 @@
+.info {
+  background: black;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+}
+
+.alerta {
+  background: white;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+}
+
+.sucesso {
+  background: green;
+  box-shadow: 0 0 1px rgba(0, 128, 0, 0.5);
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */

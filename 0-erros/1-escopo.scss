@@ -1,0 +1,13 @@
+$variavel-global: 100;
+
+.div-1 {
+    $variavel-local: 50;
+    width: $variavel-global;
+    height: $variavel-local;
+}
+
+.sidebar {
+    width: $variavel-global;
+    // Variável não definida
+    height: $variavel-local;
+}

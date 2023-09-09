@@ -1,0 +1,22 @@
+@use "sass:math";
+
+.soma {
+    width: 10px + 20px;
+    height: 10% + 5%;
+}
+
+.subtracao {
+    width: 20px - 10px;
+    height: 10% - 5%;
+}
+
+.multiplicacao {
+    width: (10 * 20) * 1px;
+    height: (10 * 5) * 1%;
+}
+
+.divisao {
+    width: math.div(100px, 20px) * 1px;
+    height: math.div(300px, 960px) * 100%;
+    // height: math.div(300px, 960px);
+}

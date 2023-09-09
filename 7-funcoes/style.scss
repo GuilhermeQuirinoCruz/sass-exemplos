@@ -1,0 +1,14 @@
+@function pow($base, $exponente) {
+    $potencia: 1;
+
+    @for $_ from 1 through $exponente {
+        $potencia: $potencia * $base;
+    }
+
+    @return $potencia;
+}
+
+.div-1 {
+    width: pow(2, 5);
+    width: pow(4, 3);
+}

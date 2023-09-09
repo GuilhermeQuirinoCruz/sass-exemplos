@@ -1,0 +1,39 @@
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+.alerta,
+.aviso {
+    ul,
+    p {
+        margin-left: 15px;
+        margin-right: 0;
+        padding-top: 15px;
+    }
+}
+
+.pagina-info {
+    margin: auto {
+        bottom: 10px;
+        top: 2px;
+    }
+
+    border: {
+        left: 5px;
+        right: 8px;
+    }
+}

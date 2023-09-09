@@ -1,0 +1,17 @@
+@mixin tema($tema: black) {
+    background: $tema;
+    box-shadow: 0 0 1px rgba($tema, 0.5);
+    color: #FFFFFF;
+}
+
+.info {
+    @include tema;
+}
+
+.alerta {
+    @include tema($tema: white);
+}
+
+.sucesso {
+    @include tema($tema: green);
+}
