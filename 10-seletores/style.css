@@ -9,16 +9,16 @@
   max-width: 600px;
   margin: 4rem auto;
   width: 90%;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 .div-2 {
   max-width: 300px;
   margin: 2rem auto;
   width: 50%;
-  background: #000000;
+  background-color: #000000;
 }
 .div-2-3 {
-  background: #FF0000;
+  background-color: #FF0000;
 }
 
 /*# sourceMappingURL=style.css.map */
