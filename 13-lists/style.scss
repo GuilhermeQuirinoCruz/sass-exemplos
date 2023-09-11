@@ -3,7 +3,7 @@
 $lista: 10, 20, 30;
 @debug $lista;
 
-$lista: 10 20 30 40 50;
+$lista: 10 20 30 30 40 50;
 @debug $lista;
 
 @debug list.nth($lista, 2);

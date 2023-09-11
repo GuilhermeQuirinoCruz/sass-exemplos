@@ -1,17 +1,21 @@
-/* Error: There is no module with the namespace "math".
- *    ,
- * 19 |     width: math.div(100px, 20px) * 1px;
- *    |            ^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   style.scss 19:12  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: There is no module with the namespace "math".\a    \2577 \a 19 \2502      width: math.div(100px, 20px) * 1px;\a    \2502             ^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   style.scss 19:12  root stylesheet';
+.soma {
+  width: 30px;
+  height: 15%;
 }
+
+.subtracao {
+  width: 10px;
+  height: 5%;
+}
+
+.multiplicacao {
+  width: 200px;
+  height: 50%;
+}
+
+.divisao {
+  width: 5px;
+  height: 31.25%;
+}
+
+/*# sourceMappingURL=style.css.map */
