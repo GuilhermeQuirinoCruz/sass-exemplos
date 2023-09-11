@@ -1,12 +1,19 @@
 $fontes: Helvetica, sans-serif;
-$cor-primaria: #ff0000;
-$cor-secundaria: #00ff00;
+$cor-primaria: #FF0000;
+$cor-secundaria: #00FF00;
+$altura: 500px;
+$largura: 1000px;
 
 body {
     font: 100% $fontes;
-    color: $cor-primaria
+    color: $cor-primaria;
 }
 
 h1 {
     color: $cor-secundaria;
+}
+
+.div-1 {
+    height: $altura;
+    width: $largura;
 }

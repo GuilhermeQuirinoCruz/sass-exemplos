@@ -1,17 +1,17 @@
 $variavel-global: 100;
 
 // Shadowing
-.div-2 {
+.div-1 {
     $variavel-global: 50;
     width: $variavel-global;
 }
 
 // Sobrescrever
-.div-3 {
+.div-2 {
     width: $variavel-global;
 }
 
-.div-4 {
+.div-3 {
     $variavel-global: 50 !global;
     width: $variavel-global;
 }

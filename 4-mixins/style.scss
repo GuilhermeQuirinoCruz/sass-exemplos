@@ -1,5 +1,5 @@
 @mixin tema($tema: black) {
-    background: $tema;
+    background-color: $tema;
     box-shadow: 0 0 1px rgba($tema, 0.5);
     color: #FFFFFF;
 }
@@ -9,7 +9,7 @@
 }
 
 .alerta {
-    @include tema($tema: white);
+    @include tema($tema: yellow);
 }
 
 .sucesso {
